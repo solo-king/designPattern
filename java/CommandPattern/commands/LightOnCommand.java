@@ -19,4 +19,10 @@ public class LightOnCommand  implements Command{
         
     }
 
+    @Override
+    public int undo(){
+
+        return mLight.OffLight();
+    }
+
 }

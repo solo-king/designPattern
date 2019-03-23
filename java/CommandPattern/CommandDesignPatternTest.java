@@ -38,7 +38,9 @@ public class CommandDesignPatternTest{
 
         /**client:按下按钮 */
         remoteConctrl.buttonPressedWithButtonIndex(0);
+        remoteConctrl.undo();
         remoteConctrl.buttonPressedWithButtonIndex(1);
+        remoteConctrl.undo();
 
     }
 }
