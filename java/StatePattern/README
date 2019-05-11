@@ -1,0 +1,13 @@
+使用方法:
+    1.清除所有编译生成的class
+        make clean
+    2.编译
+        make class
+    3.运行
+        make run
+还存在问题:
+    1.即使在TV.java中导入如下所有类，但如果不在TclTv类中导入如下状态类,那么将不编译所有的java文件为class
+        import states.NoPowerState;
+        import states.PowerOffState;
+        import states.RunningState;
+        import states.SleepState;
